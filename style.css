@@ -394,7 +394,7 @@ a {
 .marquee-products {
     display: flex;
     width: max-content;
-    animation: scroll-products 20s linear infinite;
+    animation: scroll-products 12s linear infinite;
 }
 
 .product-item {
@@ -753,6 +753,38 @@ a {
         right: 10px;
         width: 75px;
         height: 75px;
+    }
+    
+    .hero {
+        background-attachment: scroll;
+    }
+    
+    .marquee-products-wrapper {
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+    
+    .product-item img {
+        height: 120px;
+        padding: 5px;
+    }
+    
+    .marquee-products {
+        animation: scroll-products 8s linear infinite;
+    }
+    
+    .brands-section {
+        padding: 30px 0;
+    }
+    
+    .brand-item {
+        width: 130px;
+        font-size: 1.1rem;
+    }
+    
+    .marquee {
+        width: calc(130px * 16);
+        animation: scroll 15s linear infinite;
     }
 }
 
